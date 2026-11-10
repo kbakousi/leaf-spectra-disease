@@ -1,6 +1,6 @@
 # leaf-spectra-disease
 
-[![Tests](https://github.com/kbakousi/leaf-spectra-disease/actions/workflows/ci.yml/badge.svg)](https://github.com/kbakousi/leaf-spectra-disease/actions/workflows/ci.yml)
+[![Tests](https://github.com/kbakousi/leaf-spectra-disease/actions/workflows/ci.yml/badge.svg)](https://github.com/kbakousi/leaf-spectra-disease/actions/workflows/ci.yml) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24118758.svg)](https://doi.org/10.5281/zenodo.24118758)
 
 Leaf-level hyperspectral analysis for plant disease detection. The package covers reading Specim IQ / ENVI data and pixel-spectra exports, spectral preprocessing, narrow-band indices, leaf-level summaries, classifiers and one-class screening, and **validation that holds out whole leaves and dates**. Grapevine leaves with esca-like and powdery-mildew-like symptoms are the worked example.
 
@@ -114,3 +114,5 @@ Further reading on grapevine diseases and leaf spectra: Junges et al. (2020), ht
 ## Licence and citation
 
 Apache-2.0 (see `LICENSE` and `NOTICE`). To cite, use `CITATION.cff` ("Cite this repository" on GitHub).
+
+Archived on Zenodo: [doi:10.5281/zenodo.24118758](https://doi.org/10.5281/zenodo.24118758) (all versions; each release also has its own DOI on that page).

@@ -9,6 +9,7 @@ version: 0.1.0
 date-released: 2026-11-10
 license: Apache-2.0
 repository-code: "https://github.com/kbakousi/leaf-spectra-disease"
+doi: 10.5281/zenodo.24118758
 keywords: [hyperspectral, plant disease, grapevine, spectroscopy, cross-validation, one-class classification]
 abstract: >-
   Leaf-level hyperspectral analysis for plant disease detection: reading Specim IQ / ENVI data and pixel
