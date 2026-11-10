@@ -6,7 +6,7 @@ authors:
   - family-names: Bakousi
     given-names: Aikaterini
 version: 0.1.0
-date-released: 2026-11-13
+date-released: 2026-11-10
 license: Apache-2.0
 repository-code: "https://github.com/kbakousi/leaf-spectra-disease"
 keywords: [hyperspectral, plant disease, grapevine, spectroscopy, cross-validation, one-class classification]
