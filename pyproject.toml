@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "leafspec"
+version = "0.1.0"
+description = "Leaf-level hyperspectral analysis for plant disease detection: reading Specim IQ / ENVI data, spectral preprocessing, narrow-band indices, leaf-grouped validation, one-class screening and band importance."
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{ name = "Aikaterini Bakousi" }]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "pandas>=2.0", "scipy>=1.10", "scikit-learn>=1.3"]
+keywords = ["hyperspectral", "plant disease", "grapevine", "powdery mildew", "esca", "specim iq", "spectroscopy", "chemometrics"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+  "Topic :: Scientific/Engineering :: Image Processing",
+]
+
+[project.optional-dependencies]
+xlsx = ["openpyxl>=3.1"]
+test = ["pytest>=7", "openpyxl>=3.1", "nbclient>=0.7", "nbformat>=5.7", "ipykernel>=6", "matplotlib>=3.7"]
+dev = ["pytest>=7", "ruff>=0.4", "openpyxl>=3.1", "nbclient>=0.7", "nbformat>=5.7", "ipykernel>=6", "matplotlib>=3.7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+src = ["src"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "NPY", "UP"]

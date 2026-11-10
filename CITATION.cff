@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "leaf-spectra-disease"
+type: software
+authors:
+  - family-names: Bakousi
+    given-names: Aikaterini
+version: 0.1.0
+date-released: 2026-11-13
+license: Apache-2.0
+repository-code: "https://github.com/kbakousi/leaf-spectra-disease"
+keywords: [hyperspectral, plant disease, grapevine, spectroscopy, cross-validation, one-class classification]
+abstract: >-
+  Leaf-level hyperspectral analysis for plant disease detection: reading Specim IQ / ENVI data and pixel
+  exports, spectral preprocessing, narrow-band indices, leaf aggregation, classifiers and one-class screening,
+  with validation that holds out whole leaves and dates.
+references:
+  - type: article
+    authors: [{family-names: Behmann, given-names: Jan}]
+    title: "Specim IQ: Evaluation of a New, Miniaturized Handheld Hyperspectral Camera and Its Application for Plant Phenotyping and Disease Detection"
+    journal: Sensors
+    year: 2018
+    doi: 10.3390/s18020441
+  - type: article
+    authors: [{family-names: Mahlein, given-names: Anne-Katrin}]
+    title: "Plant Disease Detection by Imaging Sensors - Parallels and Specific Demands for Precision Agriculture and Plant Phenotyping"
+    journal: Plant Disease
+    year: 2016
+    doi: 10.1094/PDIS-03-15-0340-FE
+  - type: article
+    authors: [{family-names: Roberts, given-names: David R.}]
+    title: "Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure"
+    journal: Ecography
+    year: 2017
+    doi: 10.1111/ecog.02881
+  - type: article
+    authors: [{family-names: Barker, given-names: Matthew}]
+    title: "Partial least squares for discrimination"
+    journal: Journal of Chemometrics
+    year: 2003
+    doi: 10.1002/cem.785
